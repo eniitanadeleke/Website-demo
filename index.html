@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ennyet Beauty Salon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Ennyet</span> Beauty Salon</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <img src="enny_web_pics.jpg" alt="Hair styling">
+            <h1>Professional Hair Styling</h1>
+            <p>Adeleke Eniitan Adepoju - Your trusted hair stylist</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="box">
+                <img src="ghana weaving.jpg" alt="Ghana Weaving">
+                <h3>Ghana Weaving</h3>
+            </div>
+            <div class="box">
+                <img src="braids picture.jpeg" alt="Braids">
+                <h3>Braids</h3>
+            </div>
+            <div class="box">
+                <img src="twisting image.jpeg" alt="Twisting">
+                <h3>Twisting</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="request-form">
+        <div class="container">
+            <h2>Request a Style</h2>
+            <form action="submit_request.php" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="style" placeholder="Describe your desired hairstyle" required></textarea>
+                <button type="submit">Send Request</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Ennyet Beauty Salon &copy; 2024</p>
+            <p>Phone: 09027463862, 08168916005</p>
+            <p><a href="https://www.facebook.com/adepoju.eniitan?mibextid=ZbWKwL" target="_blank">Facebook</a></p>
+        </div>
+    </footer>
+</body>
+</html>

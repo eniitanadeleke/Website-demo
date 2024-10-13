@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6e6; /* Light pink background for the body */
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #ff66b2; /* Pink header */
+    color: white;
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header .highlight {
+    color: #e8491d;
+}
+
+/* Showcase Section */
+#showcase {
+    min-height: 400px;
+    background: url('enny_web_pics.jpg') no-repeat 0 -400px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#showcase h1 {
+    font-size: 55px;
+    margin-top: 0;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+/* Services Section */
+#services {
+    padding: 20px;
+    text-align: center;
+}
+
+#services h2 {
+    color: #ff66b2;
+    margin-bottom: 20px;
+}
+
+#services .box {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    margin: 20px;
+}
+
+#services .box img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+/* Request Form Section */
+#request-form {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#request-form form {
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+}
+
+#request-form input[type="text"],
+#request-form input[type="email"],
+#request-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#request-form button {
+    background-color: #ff66b2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#request-form button:hover {
+    background-color: #e8491d;
+}
+
+/* Footer */
+footer {
+    background-color: #d9b3ff; /* Light purple footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Image Styles */
+img {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
